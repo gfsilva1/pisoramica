@@ -135,7 +135,6 @@ GEM
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
-    pg (1.5.4)
     popper_js (2.11.8)
     pry (0.14.2)
       coderay (~> 1.1)
@@ -235,7 +234,6 @@ DEPENDENCIES
   devise
   importmap-rails
   jbuilder
-  pg (~> 1.1)
   pry
   puma (~> 5.0)
   rails (~> 7.0.7, >= 7.0.7.2)

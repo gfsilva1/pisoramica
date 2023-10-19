@@ -12,7 +12,7 @@ gem 'bootstrap'
 gem "sprockets-rails"
 
 # Use postgresql as the database for Active Record
-gem "pg", "~> 1.1"
+
 
 gem "pry"
 
