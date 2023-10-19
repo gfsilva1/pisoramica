@@ -1,0 +1,5 @@
+<%= @pisos.each do |img| %>
+	<%= link_to piso_path(id=1), data: { turbo_frame: "_top" } do %>
+		<%= image_tag(img, size: "300x300")%>
+	<% end %>
+<% end %>

@@ -1,0 +1,14 @@
+<div class="container">
+	<%= form_with model: @piso, method: :get, 
+		data: { 
+			turbo_frame: "results",
+			turbo_action: "advance", 
+			controller: "form",
+			action: "input->form#submit"} do %>
+		<%= text_field_tag :query, params[:query], placeholder: "Digite um nome" %>
+	<% end %>
+	
+	<%= turbo_frame_tag "results" do %>
+		<%= render "pisos/piso" %>
+	<% end %>
+</div>
